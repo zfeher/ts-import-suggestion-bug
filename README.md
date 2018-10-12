@@ -4,6 +4,8 @@ Step 1, open `app/scripts/b.js` and try to type `foo`, or `foo2`, code completio
 
 actual: error in typescript output
 
-Step 2, comment the `ncu` import and try *Step 1*, again
+Step 2, comment the `localStorage`, `gulpwatch` and `postcssobjectfitimages` imports and try *Step 1*, again
 
-actual: accepting import suggestion works but it is in a different form `import("./a").foo` than before `import { foo } from "./a"` (via ts@3.0.3 for example)
+actual: accepting import suggestion works
+
+NOTE: any of these three (`localStorage`, `gulpwatch` and `postcssobjectfitimages`) can crash the code completion

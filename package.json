@@ -1,5 +1,8 @@
 {
   "devDependencies": {
-    "npm-check-updates": "2.8.9"
+    "gulp-watch": "4.3.11",
+    "localStorage": "1.0.3",
+    "npm-check-updates": "2.8.9",
+    "postcss-object-fit-images": "1.1.2"
   }
 }
